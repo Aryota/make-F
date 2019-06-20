@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+  
+
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color:white;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color:black;
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position:fixed;
+  top:0;
+  z-index:10;
+
+}
+
+.header-left {
+  float: left;
+
+
+}
+.header-left a{
+  color:white;
+  line-height: 65px;
+  font-size: 30px;
+}
+
+.header-left1 a{
+  line-height: 75px;
+  font-size: 15px;
+  color:#FFF;
+  padding:0 10px;
+}
+
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.left1{
+  font-size: 15px;
+}
+
+.header-right1 a{
+  float: right;
+  color:white;
+  line-height: 65px;
+  padding: 0 25px;
+  font-size: 20px;
+
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  font-size: 25px;
+}
+a:hover {
+  color:#6666FF	;
+}
+
+.bosyu h2{
+  padding:100px 0;
+  font-size:30px;
+}
+/* ２回表示させないと崩れる */
+.top{
+
+
+}
+.top{
+  background-image:url(../templates/darts1/img/proxyclick-visitor-management-system-1631867-unsplash.jpg);
+  background-size:100%;
+  width:100%;
+  height:800px;
+  color:#FFF;
+}
+
+.midashi h1{
+  margin-top:40px;
+  /* padding:20px; */
+  text-align: center;
+  font-size: 50px;
+  padding-top: 100px;
+
+}
+
+.midashi a{
+
+  opacity: 0.7;
+  margin:0 125px;
+  display:block;
+  font-size:19px;
+  float:left;
+  text-align: center;
+  text-decoration-color: #black;
+  width:170px;
+  height: 20px;
+  padding:30px;
+  color:#FFF;
+  /* 文字の高さ */
+  line-height:0px;
+  margin-top: 100px;
+}
+.request{
+  background-color: #000;
+
+}
+.find{
+  background-color: #000;
+}
+.bbs{
+  background-color: #000;
+}
+
+.btn{
+  opacity: 0.8;
+
+}
+h1{
+  opacity: 0.8;
+}
+
+
+/* <footer>の中の<p>のCSSを指定してください */
+footer a{
+  color:#b3aeb5;
+  font-size:30px;
+  line-height: 30px;
+  padding-top:5px;
+  border-radius: 4px;
+}
+
+
+/* <footer>のCSSを指定してください */
+footer{
+  background-color: #000;
+  padding: 10px 0;
+
+}
+
+.container p{
+  border-bottom:   1px solid #eee;
+  /* line-height: 300px; */
+  /* background-color: #000; */
+  /* height: 200px; */
+}
+.kiyaku{
+  line-height: 60px;
+  font-size: 15px;
+  color:#FFF;
+  padding:0 10px;
+  float:right;
+}
+.under{
+  color:white;
+  font-size: 30px;
+}
+.btn:hover {
+  color:#6666FF	;
+
+}
