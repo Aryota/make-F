@@ -1,0 +1,29 @@
+{% extends "darts/base.html" %}
+{% block content %}
+<form action="" method="POST">
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-body">
+                <form action="{% url 'darts:login' %}" method="POST">
+                    {{ form.non_field_errors }}
+                    {% for field in form %}
+                        {{ field }}
+                        {{ field.errors }}
+                        <hr>
+                    {% endfor %}
+                    <button type="submit" class="btn btn-success btn-lg btn-block" >ログイン</button>
+                    <input type="hidden" name="next" value="{{ next }}" />
+                    {% csrf_token %}
+            </div>
+        </div>
+    </div>
+</form>
+<h1>a</h1>
+    <p>a
+    </p>
+ <div class="card col-md-6">
+     <div class="card-body">
+         <a href="{% url 'darts:user_create' %}" class="btn btn-success btn-lg btn-block" >会員登録</a>
+     </div>
+ </div>
+{% endblock %}
