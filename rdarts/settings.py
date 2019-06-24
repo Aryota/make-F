@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+
     'darts.apps.DartsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -122,6 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
 # カスタムユーザーを使う
 AUTH_USER_MODEL = 'darts.User'
 #
@@ -136,6 +139,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
-
 
 

@@ -1,4 +1,5 @@
 from django.shortcuts import render
+
 from django.http.response import HttpResponse
 
 # Create your views here.
@@ -124,3 +125,8 @@ class UserCreateComplete(generic.TemplateView):
                     return super().get(request, **kwargs)
 
         return HttpResponseBadRequest()
+# Create your views here.
+def index(request):
+    return render(request,'darts1/darts.html')
+
+

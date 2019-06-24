@@ -1,3 +1,4 @@
+
 # from django.db import models.py
 
 # Create your models here.
@@ -100,3 +101,6 @@ class User(AbstractBaseUser, PermissionsMixin):
         メールアドレスを返す
         """
         return self.email
+from django.db import models
+
+# Create your models here.
