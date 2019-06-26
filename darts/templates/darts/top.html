@@ -1,23 +1,23 @@
 
 {% extends 'darts/base.html' %}
+
 {% load static %}
 
 {% block title %}Darts Make{% endblock %}
-{% block css %}
-    <link rel="stylesheet"  type = "text/css" href="{% static 'darts/darts.css' %}">
-
-{% endblock %}
+{% block css %}<link rel="stylesheet"  type = "text/css" href="{% static 'darts/darts.css' %}">{% endblock %}
 
 {% block content %}
 
     <div class="top">
       <div class="midashi">
         <h1>Make A New Friends</h1>
-        <a href="#" class = "request">募集する</a>
+        <a href="{% url 'darts:registration' %}" class = "request">募集する</a>
 
         <a href="#" class = "find">見つける</a>
         <a href="#" class = "bbs">掲示板</a>
       </div>
+
+
 
 
     </div>

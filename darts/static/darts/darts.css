@@ -14,7 +14,6 @@ body {
 
 a {
   text-decoration: none;
-  
 
 }
 
@@ -90,11 +89,7 @@ a:hover {
   padding:100px 0;
   font-size:30px;
 }
-/* ２回表示させないと崩れる */
-.top{
 
-
-}
 .top{
   background: white url("images/proxyclick-visitor-management-system-1631867-unsplash.jpg") no-repeat;
   background-size:100%;
@@ -111,7 +106,7 @@ a:hover {
   padding-top: 100px;
 
 }
-
+/*募集覧*/
 .midashi a{
 
   opacity: 0.7;

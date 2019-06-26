@@ -34,3 +34,5 @@ class UserCreateForm(UserCreationForm):
         email = self.cleaned_data['email']
         User.objects.filter(email=email, is_active=False).delete()
         return email
+
+

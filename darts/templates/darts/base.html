@@ -10,7 +10,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>{% block title %}Darts Make{% endblock %}</title>
-    {% block css %}    <link rel="stylesheet"  type = "text/css" href="{% static 'darts/darts.css' %}">{% endblock %}
+    <link rel="stylesheet"  type = "text/css" href="{% static 'darts/darts.css' %}">
+    {% block css %}{% endblock %}
 
 
 
@@ -42,7 +43,7 @@
           <a href="{% url 'darts:service' %}">サービス</a>
 
 {#        <a href="/service.html#use_1">サービス</a>#}
-        <a href="/service.html#use_2">使い方</a>
+        <a href="{% url 'darts:service' %}">使い方</a>
       </div>
     </header>
 

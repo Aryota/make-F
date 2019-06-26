@@ -47,9 +47,9 @@ class Logout(LoginRequiredMixin, LogoutView):
     template_name = 'darts/top.html'
 
 # ユーザー登録
-# def Registration(request):
-#     """登録ページ"""
-#     return render(request,'darts/registration.html')
+def Registration(request):
+    """登録ページ"""
+    return render(request,'darts/registration.html')
 def Service(request):
     """サービス案内"""
     return render(request,'darts/service.html')
