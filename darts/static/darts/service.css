@@ -1,83 +1,86 @@
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+/*body {*/
+/*  margin: 0;*/
+/*  font-family: "Hiragino Kaku Gothic ProN";*/
+/*}*/
+
+/*a {*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*.container {*/
+/*  width: 1170px;*/
+/*  padding: 0 15px;*/
+/*  margin: 0 auto;*/
+/*  color:white;*/
+/*}*/
+
+/*header {*/
+/*  height: 65px;*/
+/*  width: 100%;*/
+/*  background-color:black;*/
+/*  !* positionプロパティをfixedに、topを0に指定してください *!*/
+/*  position:fixed;*/
+/*  top:0;*/
+/*  z-index:10;*/
+/*  !* z-indexを10に指定してください *!*/
+
+/*}*/
+
+/*.header-left {*/
+/*  float: left;*/
+
+
+/*}*/
+/*.header-left a{*/
+/*  color:white;*/
+/*  line-height: 65px;*/
+/*  font-size: 30px;*/
+/*}*/
+
+/*.header-left1 a{*/
+/*  line-height: 75px;*/
+/*  font-size: 15px;*/
+/*  color:#FFF;*/
+/*  padding:0 10px;*/
+/*}*/
+
+
+/*.header-right {*/
+/*  float: right;*/
+/*  background-color: rgba(255, 255, 255, 0.3);*/
+/*  transition: all 0.5s;*/
+/*}*/
+/*.left1{*/
+/*  font-size: 15px;*/
+/*}*/
+
+/*.header-right1 a{*/
+/*  float: right;*/
+/*  color:white;*/
+/*  line-height: 65px;*/
+/*  padding: 0 25px;*/
+/*  font-size: 20px;*/
+
+/*}*/
+/*.header-right:hover {*/
+/*  background-color: rgba(255, 255, 255, 0.5);*/
+/*}*/
+
+/*.header-right a {*/
+/*  line-height: 65px;*/
+/*  padding: 0 25px;*/
+/*  color: white;*/
+/*  font-size: 25px;*/
+/*}*/
+/*a:hover {*/
+/*  color:#6666FF	;*/
+/*}*/
+.service{
+  height:1500px;
+  background-color: 922;
 }
 
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  color:white;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color:black;
-  /* positionプロパティをfixedに、topを0に指定してください */
-  position:fixed;
-  top:0;
-  z-index:10;
-  /* z-indexを10に指定してください */
-
-}
-
-.header-left {
-  float: left;
-
-
-}
-.header-left a{
-  color:white;
-  line-height: 65px;
-  font-size: 30px;
-}
-
-.header-left1 a{
-  line-height: 75px;
-  font-size: 15px;
-  color:#FFF;
-  padding:0 10px;
-}
-
-
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-}
-.left1{
-  font-size: 15px;
-}
-
-.header-right1 a{
-  float: right;
-  color:white;
-  line-height: 65px;
-  padding: 0 25px;
-  font-size: 20px;
-
-}
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  font-size: 25px;
-}
-a:hover {
-  color:#6666FF	;
-}
-
-
-.top h1{
+.servicetop h1{
   margin-top:40px;
   padding:5px;
   line-height:150px;
@@ -85,10 +88,11 @@ a:hover {
   font-size: 30px;
   border-bottom:  1px solid #000;
 }
-.top p{
+.servicetop p{
   padding:30px 300px ;
   font-size: 20px;
   margin-top: 30px;
+
 }
 .use h2{
   margin-top:40px;
@@ -99,35 +103,35 @@ a:hover {
   border-bottom:  1px solid #000;
 }
 
-footer a{
-  color:#b3aeb5;
-  font-size:30px;
-  line-height: 30px;
-  padding-top:5px;
-  border-radius: 4px;
-}
+/*footer a{*/
+/*  color:#b3aeb5;*/
+/*  font-size:30px;*/
+/*  line-height: 30px;*/
+/*  padding-top:5px;*/
+/*  border-radius: 4px;*/
+/*}*/
 
 
-/* <footer>のCSSを指定してください */
-footer{
-  background-color: #000;
-  padding: 10px 0;
-}
+/*!* <footer>のCSSを指定してください *!*/
+/*footer{*/
+/*  background-color: #000;*/
+/*  padding: 10px 0;*/
+/*}*/
 
-.container p{
-  border-bottom:   1px solid #eee;
-}
-.kiyaku{
-  line-height: 60px;
-  font-size: 15px;
-  color:#FFF;
-  padding:0 10px;
-  float:right;
-}
-.under{
-  color:white;
-  font-size: 30px;
-}
-.btn:hover {
-  color:#6666FF	;
-}
+/*.container p{*/
+/*  border-bottom:   1px solid #eee;*/
+/*}*/
+/*.kiyaku{*/
+/*  line-height: 60px;*/
+/*  font-size: 15px;*/
+/*  color:#FFF;*/
+/*  padding:0 10px;*/
+/*  float:right;*/
+/*}*/
+/*.under{*/
+/*  color:white;*/
+/*  font-size: 30px;*/
+/*}*/
+/*.btn:hover {*/
+/*  color:#6666FF	;*/
+/*}*/

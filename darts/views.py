@@ -29,6 +29,13 @@ from django.views import generic
 from .forms import (
     LoginForm, UserCreateForm
 )
+from django.shortcuts import render
+
+from django.utils.safestring import mark_safe
+import json
+
+# chat/views.py
+# from django.shortcuts import render
 
 
 User = get_user_model()
@@ -126,7 +133,16 @@ class UserCreateComplete(generic.TemplateView):
 
         return HttpResponseBadRequest()
 # Create your views here.
-def index(request):
-    return render(request,'darts1/darts.html')
+def darts(request):
+    return render(request,'darts/darts.html')
+
+def chat(request):
+    return render(request, 'chat/chat.html', {})
+
+def room(request, room_name):
+    return render(request, 'chat/room.html', {
+        'room_name_json': mark_safe(json.dumps(room_name))
+    })
+
 
 

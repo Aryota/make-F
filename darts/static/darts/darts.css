@@ -72,7 +72,7 @@ header {
 
 }
 .header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header-right a {
@@ -144,7 +144,6 @@ h1{
 }
 
 
-/* <footer>の中の<p>のCSSを指定してください */
 footer a{
   color:#b3aeb5;
   font-size:30px;
@@ -154,18 +153,20 @@ footer a{
 }
 
 
-/* <footer>のCSSを指定してください */
 footer{
   background-color: #000;
   padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
 }
 
 .container p{
   border-bottom:   1px solid #eee;
-  /* line-height: 300px; */
-  /* background-color: #000; */
-  /* height: 200px; */
+   line-height: 0px;
+   background-color: #000;
+   height: 20px;
 }
 .kiyaku{
   line-height: 60px;
