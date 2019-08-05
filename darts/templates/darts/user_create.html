@@ -1,6 +1,8 @@
-{% extends "darts/base.html" %}
+{% extends "darts/little_base.html" %}
 {% block content %}
 <br><br><br><br>
+{% csrf_token %}
+
 <form action="" method="POST">
     {{ form.non_field_errors }}
     {% for field in form %}
@@ -13,4 +15,6 @@
     {% csrf_token %}
     <button type="submit" class="btn btn-primary btn-lg">送信</button>
 </form>
+
+
 {% endblock %}

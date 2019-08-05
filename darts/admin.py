@@ -6,6 +6,7 @@ from django.utils.translation import ugettext_lazy as _
 from .models import User
 
 
+
 class MyUserChangeForm(UserChangeForm):
     class Meta:
         model = User
@@ -41,6 +42,8 @@ class MyUserAdmin(UserAdmin):
 
 
 admin.site.register(User, MyUserAdmin)
+
+
 
 # Register your models here.
 

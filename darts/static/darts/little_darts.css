@@ -155,7 +155,7 @@ footer a{
 footer{
   background-color: #000;
   padding: 10px 0;
-  /*position: fixed;*/
+  position: fixed;
   bottom: 0;
   width: 100%;
 

@@ -68,8 +68,8 @@ class UserCreate(generic.CreateView):
 
     def form_valid(self, form):
         """仮登録と本登録用メールの発行."""
-        # 仮登録と本登録の切り替えは、is_active属性を使うと簡単です。
-        # 退会処理も、is_activeをFalseにするだけにしておくと捗ります。
+        # 仮登録と本登録の切り替えは、is_active属性を使う
+        # 退会処理も、is_activeをFalseにする
         user = form.save(commit=False)
         user.is_active = False
         user.save()
